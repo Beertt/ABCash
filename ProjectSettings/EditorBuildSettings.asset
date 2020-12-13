@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: "Assets/Scenes/Prel\xFAdio.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: "Assets/Scenes/Situa\xE7\xE3o 1.unity"
+    guid: 75e252c99c2776546a295d181bab93b2
+  - enabled: 1
+    path: "Assets/Scenes/Situa\xE7\xE3o 2.unity"
+    guid: 4463408c0426f7a46a5a07e62dbb50fb
+  - enabled: 1
+    path: "Assets/Scenes/Situa\xE7\xE3o 3.unity"
+    guid: 3ff5be05c2da00b458449fd4b746379d
+  - enabled: 1
+    path: "Assets/Scenes/Situa\xE7\xE3o 4.unity"
+    guid: 7755d25c056c8a144bbaf048e4de5219
+  - enabled: 1
+    path: "Assets/Scenes/Situa\xE7\xE3o 5.unity"
+    guid: b080b4b175439b6499832597bea77101
   m_configObjects: {}
