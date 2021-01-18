@@ -96,6 +96,7 @@ public class GerenciadorDeDialogos : MonoBehaviour {
 	}
 
 	public void EscolherOpcao(int indexOpcao) {
+		SistemaSalvamento.SalvarDado(GerenciadorDeCenas.instancia.GetCenaNumero(), opcoesAtivas[indexOpcao].text);
 		if (opcoesAtivas[indexOpcao].dialogoConectado == null) {
 			return;
 		}
