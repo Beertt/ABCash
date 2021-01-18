@@ -22,6 +22,10 @@ public class GerenciadorDeCenas : MonoBehaviour {
         StartCoroutine(CarregarCena());
     }
 
+    public int GetCenaNumero() {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
+
     // Carregar próxima cena
     IEnumerator CarregarCena() {
         yield return new WaitForSeconds(tempoTransicao);
